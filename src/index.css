@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+  :root {
+    --primary-color: #070705;
+    --secondary-color: #CCC;
+  }
+
+  /* backgrounds colors*/
+  .bg-primary{
+    background-color: var(--primary-color);
+  }
+
+  /* text colors */
+  .color-secondary{
+    color: var(--secondary-color)
+  }
+}
